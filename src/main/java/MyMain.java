@@ -40,8 +40,8 @@ public class MyMain {
     // Counts the number of odd numbers in list
     public static int countOdd(ArrayList<Integer> list) {
         int count = 0;
-        for (Integer integer : list) {
-            if (integer % 2 != 0) {
+        for (Integer i : list) {
+            if (i % 2 != 0) {
                 count++;
             }
         }
